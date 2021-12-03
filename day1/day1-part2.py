@@ -1,4 +1,4 @@
-f = open('day1\input.txt', 'r')
+f = open('day1/input.txt', 'r')
 
 strList = f.readlines()
 numList = []
@@ -6,5 +6,10 @@ numList = []
 for i in strList:
     numList.append(int(i))
 
+cont = 0
+aux = 0
+
 for i in numList:
     
+
+print(cont)
